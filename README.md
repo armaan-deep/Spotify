@@ -1,2 +1,2 @@
 # Spotify
-Front End of Spotify
+Front End of Spotify CSS and HTML only
