@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="resources\logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />    <link rel="stylesheet" href="style.css"> 
+ </head>
+ <body>
+  <div class="main">
+    <!---------------------------------------------Sidebar--------------------------------------------------->       
+        <div class="sidebar">
+          <div class="nav">
+            <div class="nav-option" style="opacity: 1;">
+            <i class="fa-solid fa-house"></i>
+              <a href="#">Home</a>
+            </div>
+            
+            <div class="nav-option">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <a href="#">Search</a>
+            </div>
+          
+           </div>
+         <div class="library">
+            <div class="lib-top">
+              <div class="lib-top-lib">
+               <img src="./resources/library_icon.png" alt="Lib_icon">
+                <a href="#">Your Library</a>
+              </div>
+          <div class="lib-icon">
+                <i class="fa-regular fa-plus"></i>
+                <i class="fa-solid fa-arrow-right lib-i"></i>
+            </div>
+           
+            </div>
+               
+            <div class="lib-box">
+                <div class=" box">
+                <div class="box-t1">Create your first playlist</div>
+                <div class="box-t2">It's easy we'll help you</div>
+                <button type="submit" class="badge">Create Playlist</button>
+              </div>
+           
+              <div class=" box">
+                <div class="box-t1">Let's find some podcast to follow</div>
+                <div class="box-t2">we'll keep you updated on new episodes</div>
+                <button type="submit" class="badge">Browse podcasts</button>
+               </div>
+            </div> 
+          </div>
+       </div>
+ <!---------------------------------------------Main content------------------------------------------>       
+        <div class="main-cont">
+          <div class="sticky-nav">
+             <div class="sticky-nav-img">
+              <img src="./resources/backward_icon.png" alt="bckwrd">
+              <img src="./resources/forward_icon.png" class="hide" alt="frwd">
+            </div> 
+            <div class="sticky-nav-badg">
+              <button type="submit" class="badge hide">Explore Premium</button>
+              <button type="submit" class="badge dark"><i class="fa-regular fa-circle-down"></i>Install App</button>
+              <i class="fa-regular fa-user user-icon"></i>
+            </div>
+          </div>
+          
+          <div class="nav-cards">
+           <h2>Recently Played</h2>
+              <div class="cards-container">
+                <div class="card rec-ply">
+                 <img src="./resources//boxes/box_1/card1img.jpeg" alt="card" class="card-img ">
+                 <div class="play-me"><img src="./resources/ply.png" alt="ply-me"></div>
+                  <p class="card-title">Top 50 - Global</p>
+                  <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+              </div>
+              <h2>Spotify orignals & exclusive shows</h2>
+              <div class="cards-container">
+                <div class="card">
+                  <img src="./resources/boxes/box_2/2_1.jpg" alt="card" class="card-img">
+                  <p class="card-title">Decode Dil with Ekta</p>
+                  <p class="card-info">Spotify Studios</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_2/2_2.jpg" alt="card" class="card-img">
+                  <p class="card-title">The Horror Show </p>
+                  <p class="card-info">TMV Studios</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_2/2_3.jpg" alt="card" class="card-img">
+                  <p class="card-title">Chanakya Niti</p>
+                  <p class="card-info">Kiran Chavda</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_2/2_4.jpg" alt="card" class="card-img">
+                  <p class="card-title">Horror Time-Scar....</p>
+                  <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+              </div>
+
+              <h2>Trending now</h2>
+              <div class="cards-container">
+                <div class="card">
+                  <img src="./resources/boxes/box_3/3_1.jpg" alt="card" class="card-img">
+                  <p class="card-title">Mahiye Jinna Sohna</p>
+                  <p class="card-info">Darshan Raval</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_3/3_2.jpg" alt="card" class="card-img">
+                  <p class="card-title">Saroor</p>
+                  <p class="card-info">Arjan Dhillon, MXRCI</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_3/3_3.jpg" alt="card" class="card-img">
+                  <p class="card-title">Yaar Ka Sataya Hua....</p>
+                  <p class="card-info">B Praak, Janni</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_3/3_4.jpg" alt="card" class="card-img">
+                  <p class="card-title">Tumhe Kitna Pyaar Karte</p>
+                  <p class="card-info">Mithoon, Arjit Singh, Manoj Muntashir</p>
+                </div>
+              </div>
+
+              <h2>Recmmended for you</h2>
+              <div class="cards-container">
+                <div class="card">
+                  <img src="./resources/boxes/box_4/4_1.jpg" alt="card" class="card-img">
+                  <p class="card-title">Indie India</p>
+                  <p class="card-info">Best of Indian Indie scence. Cover....</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_4/4_2.jpg" alt="card" class="card-img">
+                  <p class="card-title">RAP 91</p>
+                  <p class="card-info">Best of Hip-Hop from India. Cover....</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_4/4_3.jpg" alt="card" class="card-img">
+                  <p class="card-title">RADAR India</p>
+                  <p class="card-info">Most exciting artists from the Indain Indie...</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_4/4_4.jpg" alt="card" class="card-img">
+                  <p class="card-title">Kollywood cream</p>
+                  <p class="card-info">Finest collection of Tamil Music from the past 10....</p>
+                </div>
+              </div>
+
+             <h2>Featured Charts</h2>
+              <div class="cards-container">
+                <div class="card">
+                  <img src="./resources/boxes/box_5/5_1.jpg" alt="card" class="card-img">
+                  <p class="card-title">Top Songs - Global</p>
+                  <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_5/5_2.jpg" alt="card" class="card-img">
+                  <p class="card-title">Top Songs - India</p>
+                  <p class="card-info">Your weekly updates of the most played...</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_5/5_3.jpg" alt="card" class="card-img">
+                  <p class="card-title">Top 50 - Global</p>
+                  <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_5/5_4.jpg" alt="card" class="card-img">
+                  <p class="card-title">Top 50 - India</p>
+                  <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+              </div>
+
+              <h2>Shows to try</h2>
+              <div class="cards-container">
+                <div class="card">
+                  <img src="./resources/boxes/box_6/6_1.jpg" alt="card" class="card-img">
+                  <p class="card-title">Top 50 - Global</p>
+                  <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_6/6_2.jpg" alt="card" class="card-img">
+                  <p class="card-title">Top 50 - Global</p>
+                  <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_6/6_3.jpg" alt="card" class="card-img">
+                  <p class="card-title">Top 50 - Global</p>
+                  <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+                <div class="card">
+                  <img src="./resources/boxes/box_6/6_4.jpg" alt="card" class="card-img">
+                  <p class="card-title">Top 50 - Global</p>
+                  <p class="card-info">Your daily updates of the most played...</p>
+                </div>
+              </div>
+              
+            <div class="nav-footer">
+             <div class="list-container">   
+                <ol class="list">
+                  <a href=""><li class="li-head" style="opacity: 1;">Company</li></a>
+                  <a href=""><li>About</li></a>
+                  <a href=""><li>Jobs</li></a>
+                  <a href=""><li> For the record</li></a>
+                </ol>   
+                
+                <ol class="list">
+                  <a href=""><li class="li-head" style="opacity: 1;">Communites</li></a>
+                  <a href=""><li>For Artists</li></a>
+                  <a href=""><li>Developers</li></a>
+                  <a href=""><li>Advertising</li></a>
+                  <a href=""><li>Investors</li></a>
+                  <a href=""><li>Vendors</li></a>
+                  <a href=""><li>Spotify for work</li></a>
+                </ol>
+
+                <ol class="list">
+                  <a href=""><li class="li-head" style="opacity: 1;">Useful link</li></a>
+                  <a href=""> <li>Support</li></a>
+                  <a href=""><li>Free Mobile App</li></a>
+                </ol>
+              
+               
+                 <div class="main-cont-nav-icon">
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>   
+                 </div>
+            </div></div>
+            
+                         <hr style="margin: 2rem 0; color: #232323;">
+          <div class="information"> 
+           <div class="info">  
+            <a href="">Legal</a>
+            <a href="">Privacy Center</a>
+            <a href="">Privacy Center</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Cookies</a>
+            <a href="">About Ads</a>
+            <a href="">Acessibility</a>
+           </div> 
+           <div class="copyright">
+            <p>&copy; 2023 Spotify AB</p>
+           </div>
+
+          </div>
+      
+        </div>
+   </div>
+ <!---------------------------------------------Music------------------------------------------>       
+   
+        <div class="music">
+          <div class="mus-info">
+            <div class="mus-cover">
+              <img src="./resources/music-info.png" alt="song img">
+            </div>
+            <div class="mus-delt">
+              <p class="mus-delt-name">Tera Door Ni Canada</p>
+              <p class="mus-delt-aname">Pavitar Lassoi</p>
+            </div>
+            <div class="mus-info-opt">
+              <i class="fa-regular fa-heart"></i>
+              <span class="material-symbols-outlined">
+                picture_in_picture_alt
+                </span>
+            </div>
+          </div>
+          
+          <div class="mus-controls-main">
+            <div class="control-icons">
+              <img src="./resources/player_icon1.png" alt="Shuffle">
+              <img src="./resources/player_icon2.png" alt="Previous">
+              <img src="./resources/player_icon3.png" alt="PL?PA" step="1"  style="opacity: 1; height: 2rem; width: 2rem;">
+              <img src="./resources/player_icon4.png" alt="Next">
+              <img src="./resources/player_icon5.png" alt="Loop">
+            </div>
+            <div class="control-plbr">
+            <span><p>00:00</p></span>
+            <div class="playbar">
+              <input type="range" name="Playbar" id="plybr" value="0">
+            </div>
+            <span> <p></p>03:03 </p></span>
+          </div>
+          </div>
+          <div class="mus-controls">
+            <div class="mus-cntrl-icons">
+            
+              <span  class="material-symbols-outlined que-m-c">
+                queue_music
+                </span>
+              <i class="fa-solid fa-computer"></i>
+              <label for="volm"><i class="fa-solid fa-volume-low"></i></label>
+              <input type="range" name="vol" id="volm" step="1" value="10">
+            </div>
+          </div>
+        </div>
+ </div>
+ </body>
+</html>
+ 
